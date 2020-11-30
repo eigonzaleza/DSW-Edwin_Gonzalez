@@ -1,10 +1,18 @@
-*{
+/*{
     margin:0;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-box-sizing: border-box;
-}
+box-sizing: border-box;*/
+
+
+body{background-color: #ddd;}
+		#container{
+			background-color: white;
+			margin: 0 auto;
+			width: 1200px;
+            padding: 20px;
+        }
 .titulo {
     color :#F47920;
         text-align: center;
@@ -22,6 +30,7 @@ body {
 {
     width:  1000 px;
     margin: 30px auto;
+    position: center ;
     background: #005883;
 } 
 .NAVEGACION ul {
@@ -48,7 +57,7 @@ display: inline-block;
 .submenu1{
     position: absolute;
     background:#f0b429 ;
-    width: 160%;
+   
     visibility: hidden;
     opacity: 0;
     transition: opacity 1.5s;
@@ -56,7 +65,7 @@ display: inline-block;
  }
  .submenu1 li a {
  display: block;
- width: 128%;
+ width: 100%;
  padding: 15px 20px;
  color: 	#FFFFFF;
  font-family:angsana new;
@@ -164,8 +173,10 @@ display: inline-block;
  }
 .azul{
     color:#005883;
-   
+    text-align: center;
+    transition: all .9s ; 
 }
+
 .FUENTE{
     color: #b3b3b3;
 }
@@ -173,6 +184,13 @@ display: inline-block;
     color :#F47920;
         text-align: center;
         transition: all .9s ; 
+}
+
+
+.titulo4 {
+    color :#F47920;
+    text-align: left;
+      transition: all .9s ; 
 }
 .center{
     text-align: center;
@@ -185,3 +203,143 @@ display: inline-block;
     color :#F47920;
         text-align: center;
         transition: all .9s ;}
+    
+    .titulopre {
+        color:white;
+            text-align: center;
+            transition: all .9s ;}
+   
+    .photologo  
+    {
+        width: 80%;
+        height: 70px;
+        background: white;
+    }
+    
+    .photologo .imag 
+    {
+       position: absolute;
+     top: 3%;
+     left: 40%;}
+    
+ .photo2
+    {
+        width: 80%;
+        height: 150px;
+        background:white;
+    }
+    
+    .photo2 .imag 
+    {
+      position: absolute;
+     top: 45%;
+     left: 35%;
+      }
+    
+     
+    .INICIO
+    {
+        position: absolute;
+        left: 65%;
+        width: 5%;
+        height: 4%;
+        background-color:#f0b429;
+        border-radius: 5%;
+        overflow: hidden;
+    }
+    .INICIO 
+    
+    {
+       font-size: 15px;
+        position: absolute;
+        left: 87%;
+        width: 20%;
+       
+            transition: all .9s ;
+       }
+       
+.photo
+{
+    width: 80%;
+    height: 150px;
+    background: white;
+}
+.photo .imag 
+{
+    position: absolute;
+ top:auto;
+ left: 40%;
+}
+
+
+.photog
+{
+    width: 80%;
+    height: 150px;
+    background: white;
+}
+.photog .imag 
+{
+    position: absolute;
+ top: auto;
+ left: 45%;
+}
+
+.CREDITOS {
+    color :#F47920;
+        text-align: center;
+        transition: all 1.9s ;}
+
+
+        /*tabla de presentecion */ 
+        
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+        table{
+            background-color: white;
+            text-align: left;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        th, td{
+            padding: 20px;
+            text-align: center;
+        }
+        
+        thead{
+            background-color: #005883;
+            border-bottom: solid 5px orange;
+            color: white;
+         
+            
+        }
+        
+        tr:nth-child(even){
+            background-color: #ddd;
+            text-align: center;
+        }
+        
+        tr:hover td{
+            background-color:orange ;
+            color: white;
+
+            
+        }
+        .pie 
+    {background-color: #005883;
+       
+       /* width: 30%;*/
+        
+                  padding: 15px 425px;
+    color: 	#FFFFFF;
+    text-align: center;
+    font-family: angsana new;
+    text-decoration: none;
+    border-bottom: solid 5px orange;
+    }
+        
+    
